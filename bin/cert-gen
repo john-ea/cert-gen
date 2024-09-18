@@ -5,8 +5,8 @@ set -u
 set -o pipefail
 
 NAME="cert-gen"
-VERSION="v0.10"
-DATE="2022-12-18"
+VERSION="v0.11"
+DATE="2024-09-18"
 
 # Generate default options
 DEF_KEYSIZE=2048
@@ -47,7 +47,7 @@ log() {
 
 print_version() {
 	echo "${NAME}: Version ${VERSION} (${DATE}) by cytopia"
-	echo "https://github.com/devilbox/cert-gen/"
+	echo "https://github.com/john-ea/cert-gen/"
 }
 
 print_help() {
@@ -324,7 +324,6 @@ cmd="openssl req \
   -newkey rsa:${DEF_KEYSIZE} \
   -${DEF_SIGN_SIGNATURE} \
   -nodes \
-  -extensions v3_req \
   -config <(echo \"${OPENSSL_CONFIG}\") \
   -keyout ${KEY_FILE} \
   -subj '${SUBJECT}' \

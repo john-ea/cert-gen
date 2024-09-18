@@ -39,7 +39,7 @@ fi
 ### General
 ###
 DOCKER_NAME="devilbox_openssl_server"
-DOCKER_IMAGE="debian:buster-slim"
+DOCKER_IMAGE="debian:bookworm-slim"
 OPENSSL_PORT=4433
 
 

@@ -1,13 +1,23 @@
 # cert-gen
 
-![Tag](https://img.shields.io/github/tag/devilbox/cert-gen.svg)
+___
+
+The original cert-gen was created and maintained by [cytopia](https://github.com/cytopia) in the [devilbox/cert-gen](https://github.com/devilbox/cert-gen) repository.
+
+Thanks to [cytopia](https://github.com/cytopia) and the [devilbox](https://github.com/devilbox) project.
+___
+
+> ##### 🐱 GitHub Fork: [john-ea/cert-gen](https://github.com/john-ea/cert-gen)
+> ##### 🐱 GitHub original “upstream” repository: : [devilbox/cert-gen](https://github.com/devilbox/cert-gen)
+
+![Tag](https://img.shields.io/github/tag/john-ea/cert-gen.svg)
 [![Discord](https://img.shields.io/discord/1051541389256704091?color=8c9eff&label=Discord&logo=discord)](https://discord.gg/2wP3V6kBj4)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-[![linting](https://github.com/devilbox/cert-gen/workflows/linting/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/linting.yml)
-[![test-linux](https://github.com/devilbox/cert-gen/workflows/test-linux/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/test-linux.yml)
-[![test-macos](https://github.com/devilbox/cert-gen/workflows/test-macos/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/test-macos.yml)
-[![test-windows](https://github.com/devilbox/cert-gen/workflows/test-windows/badge.svg)](https://github.com/devilbox/cert-gen/actions/workflows/test-windows.yml)
+[![linting](https://github.com/john-ea/cert-gen/workflows/linting/badge.svg)](https://github.com/john-ea/cert-gen/actions/workflows/linting.yml)
+[![test-linux](https://github.com/john-ea/cert-gen/workflows/test-linux/badge.svg)](https://github.com/john-ea/cert-gen/actions/workflows/test-linux.yml)
+[![test-macos](https://github.com/john-ea/cert-gen/workflows/test-macos/badge.svg)](https://github.com/john-ea/cert-gen/actions/workflows/test-macos.yml)
+[![test-windows](https://github.com/john-ea/cert-gen/workflows/test-windows/badge.svg)](https://github.com/john-ea/cert-gen/actions/workflows/test-windows.yml)
 
 Easily create your own CA and self-signed certificates.
 
