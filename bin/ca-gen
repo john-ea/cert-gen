@@ -5,8 +5,8 @@ set -u
 set -o pipefail
 
 NAME="ca-gen"
-VERSION="v0.10"
-DATE="2022-12-18"
+VERSION="v0.11"
+DATE="2024-09-18"
 
 # Generate default options
 DEF_KEYSIZE=2048
@@ -43,7 +43,7 @@ log() {
 
 print_version() {
 	echo "${NAME}: Version ${VERSION} (${DATE}) by cytopia"
-	echo "https://github.com/devilbox/cert-gen/"
+	echo "https://github.com/john-ea/cert-gen/"
 }
 
 print_help() {
